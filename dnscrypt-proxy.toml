@@ -173,12 +173,12 @@ server_names = ['odoh-cloudflare', 'cloudflare', 'cloudflare-ipv6', 'dnscrypt.ca
   refresh_delay = 73
   prefix = ''
 
-  [sources.dnscry-pt-anon-relays]
-  urls = ["https://www.dnscry.pt/anon-relays.md"]
-  minisign_key = "RWQM31Nwkqh01x88SvrBL8djp1NH56Rb4mKLHz16K7qsXgEomnDv6ziQ"
-  cache_file = "/var/cache/dnscrypt-proxy/dnscry.pt-anon-relays.md"
-  refresh_delay = 72
-  prefix = "dnscry.pt-"
+#  [sources.dnscry-pt-anon-relays]
+#  urls = ["https://www.dnscry.pt/anon-relays.md"]
+#  minisign_key = "RWQM31Nwkqh01x88SvrBL8djp1NH56Rb4mKLHz16K7qsXgEomnDv6ziQ"
+#  cache_file = "/var/cache/dnscrypt-proxy/dnscry.pt-anon-relays.md"
+#  refresh_delay = 72
+#  prefix = "dnscry.pt-"
 
 ### oDoH server and relay is already set here. For more servers and relays 
 ##go to: https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Oblivious-DoH
