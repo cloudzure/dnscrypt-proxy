@@ -6,7 +6,7 @@
 ## listen_addresses = ['127.0.0.1:53', '[::1]:53']
 ## To listen to all IPv4 addresses, use `listen_addresses = ['0.0.0.0:53']`
 ## To listen to all IPv4+IPv6 addresses, use `listen_addresses = ['[::]:53']`
-listen_addresses = ['127.0.0.1:6053', '[::1]:6053']
+listen_addresses = ['0.0.0.0:6053', '[::]:6053']
 
 ### Use servers reachable over IPv4
 ipv4_servers = true
