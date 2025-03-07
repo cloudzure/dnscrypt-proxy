@@ -7,6 +7,8 @@ updates:
       time: "15:30"
     labels:
       - "dependencies"
+      - "go"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -14,3 +16,4 @@ updates:
       time: "15:30"
     labels:
       - "dependencies"
+      - "github-actions"
